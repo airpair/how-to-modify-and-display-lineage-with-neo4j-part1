@@ -50,4 +50,4 @@ At this point, you also have the ability to get a list of all grapplers filtered
 ```
 
 ##Next steps
-We'll further build out the API for querying the database through the back end service "marcelo", which will be dockerized. Furthermore we're going to start working on the front end with Google Polymer 1.0 (in the style of [dockerized software development](https://www.airpair.com/docker/posts/dockerized-software-development) and deploy all services.
+We'll further build out the API for querying the database through the back end service "marcelo", which will be dockerized. Furthermore we're going to start working on the front end with Google Polymer 1.0 (in the style of [dockerized software development](https://www.airpair.com/docker/posts/dockerized-software-development)) and deploy all services.
