@@ -1,5 +1,8 @@
 In this first article of a possible series for building [grappletree.com](http://www.grappletree.com), I am dealing with the question on how to modify and display lineage with neo4j. As I am writing these blog posts, I am building grappletree.com. If I have to name a single technology that is most important in building this site, I'd have to name the graph database Neo4j.
 
+##Who is this for
+This article is for the developer who is somewhat familiar with Neo4j, but wants to see how fast and easy you can get something in production. If you're new to Graph databases or Neo4j, I recommend heading over to Neo4j's website and [get started](http://neo4j.com/developer/get-started/) with some great, free training courses and documentation.
+
 Since posting my first AirPair article with the title [The painful journey of painless deployments
 ](https://www.airpair.com/docker/posts/the-painful-journey-of-painless-deployments), Docker has only increased in its significance in my development and deployment process. For this article however, we won't be going to much in detail on how to use Docker. At this time, we also won't be using a Docker container for Neo4j, but we'll be using a milestone release.
 
