@@ -36,7 +36,9 @@ You'll notice that Jean Jacques Machado and Eddie Bravo have different colors. T
 
 This is the very simple graph that we're going to work with for the rest of this article.
 
-##The Back End
+##Building the API
+For this section, I've built a small hapijs application that provides the API for the front end (which we're going to build in the next article). Right now we have one single end point that we're using to get the list of grapplers, based on our opitonal query params.
+
 The source code for this article can be viewed on [GitHub](https://github.com/manonthemat/Grappletree/tree/article1). After cloning the repository, run ```npm install --production``` from within the marcelo directory (named after one of the best back-takers in Jiu Jitsu: Marcelo Garcia) to install the dependencies.
 
 ```MARCELO_DB_PROTOCOL=http MARCELO_DB_HOST=127.0.0.1 MARCELO_DB_PORT=7474 node server.js``` will start the hapijs server and use the running Neo4j instance.
